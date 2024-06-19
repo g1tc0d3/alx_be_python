@@ -1,4 +1,4 @@
-x = input ("How old are you ? ", )
-age = int(x) + 27
+input ("How old are you ? ", )
+age = (input, + 27)
 
-print ("in 2050, you will be ", age, "years old")
+print ("In 2050, you will be ", age, "years old")
