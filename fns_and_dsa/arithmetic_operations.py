@@ -11,5 +11,8 @@ def perform_operation():
         case "multiply":
             print (num1 * num2)
         case "divide":
-            print (num1 / num2)
+            if num2 == 0:
+                print ("Cannot recognize and display correctly")
+            else:
+                print (num1 / num2)
 perform_operation()
