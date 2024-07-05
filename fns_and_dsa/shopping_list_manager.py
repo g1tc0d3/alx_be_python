@@ -14,7 +14,7 @@ def main():
         if choice == "1":
             item = ("Enter item to add: ")
             shopping_list.append(item)
-            print(item, "added to the list")
+            print(f"{item} added to the list")
         elif choice == "2":
             item = ("Enter item to remove: ")
             if item in shopping_list:
