@@ -1,5 +1,5 @@
 import unittest
-import simple_calculator
+from simple_calculator import SimpleCalculator
 
 def simplecalculator(add, subtract, multiply, divide):
   pass
