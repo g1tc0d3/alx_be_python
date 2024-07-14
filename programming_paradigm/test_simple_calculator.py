@@ -1,7 +1,7 @@
 import unittest
 import simple_calculator
 
-def simplecalculator():
+def simplecalculator(add, subtract, multiply, divide):
   pass
 
 def add(x, y):
