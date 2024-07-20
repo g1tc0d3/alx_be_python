@@ -9,7 +9,7 @@ class Shape:
     def area(Shape):
         return NotImplementedError
     
-class Rectangle (Shape):
+class Rectangle(Shape):
     def __init__(self, length, width):
         super().__init__(self, length, width)
         Rectangle.area = f"{self.length} * {self.width}"
