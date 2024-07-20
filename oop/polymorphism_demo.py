@@ -14,7 +14,7 @@ class Rectangle(Shape):
         super().__init__(self, length, width)
         self.length = length
         self.width = width
-        Rectangle.area = f"{self.length} * {self.width}"
+        Rectangle.area = f"{self.length * self.width}"
         
 class Circle(Shape):
     def __init__(self, radius):
