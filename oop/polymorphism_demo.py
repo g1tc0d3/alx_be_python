@@ -17,7 +17,7 @@ class Rectangle(Shape):
 class Circle(Shape):
     def __init__(self, radius):
         super().__init__(self,radius)
-        self.radius = radius*radius
+        self.radius = radius**2
         Circle.area = f"{(math.pi * (self.radius))}"
 
 
