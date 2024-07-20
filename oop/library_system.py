@@ -4,10 +4,16 @@ class Book:
         self.title = title
         self.author = author
 
+    def __str__(self):
+        return f"Title {self.title}, and author {self.author}"
+    
 class EBook(Book):
     def __init__ (self, title, author, file_size):
         Book.__init__(self, title, author)
         self.file_size = file_size 
+
+    def __str__(self):
+        return f"{Book.title} {Book.author} size {self.file_size}"
 
 class PrintBook(Book):
     def __init__ (self, title, author, page_count):
