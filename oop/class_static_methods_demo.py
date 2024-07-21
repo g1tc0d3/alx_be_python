@@ -1,6 +1,6 @@
 class Calculator:
 
-    calculation_type = "Arithmetic Operation"
+    calculation_type = "Arithmetic Operations"
 
     def __init__ (self, a, b):
         self.a = a
