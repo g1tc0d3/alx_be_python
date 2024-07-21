@@ -12,4 +12,4 @@ def add (a, b):
 
 @classmethod
 def multiply (cls, a, b):
-    return a*b
+    return a * b
