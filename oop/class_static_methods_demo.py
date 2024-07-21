@@ -12,7 +12,5 @@ def add (a, b):
 
 @classmethod
 def multiply (cls, a, b):
-    cls.a = a
-    cls.b = b
     print (f"Calculation type: {cls.calculation_type}")
     return a*b
